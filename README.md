@@ -16,6 +16,12 @@ For every way that uses autorestart. For example, I can suggest at least three o
 2. docker service restart policy: `on-failure` / `always` / `unless-stopped`
 3. Screen infinite loop: `while true; do your_app; sleep 10; done`
 
+### Installation
+
+You can install it via pip:
+```
+python3 -m pip install karton-memory-watcher
+```
 
 ### How to use it
 
