@@ -1,3 +1,10 @@
+name: PyPI workflow
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   pypi-publish:
     name: upload release to PyPI
@@ -12,4 +19,3 @@ jobs:
 
       - name: Publish package distributions to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        on: push
