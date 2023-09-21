@@ -1,6 +1,6 @@
 [project]
 name = "karton_memory_watcher"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="Rakovsky Stanislav", email="iam@disasm.me" },
 ]
@@ -13,7 +13,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-dependencies = ["karton-core>=5.0.0"]
+dependencies = ["karton-core>=5.0.0", "psutil"]
 
 [project.urls]
 "Homepage" = "https://github.com/rakovskij-stanislav/karton_memory_watcher"
